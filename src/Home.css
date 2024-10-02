@@ -1,0 +1,141 @@
+/* src/components/Home.css */
+
+/* General Styles for the Home Section */
+.home-section {
+  height:550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+  padding: 100px;
+  background-color: #f0f4f8; /* Light background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  margin: 20px; /* Space around the section */
+  text-align: center; /* Center text */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover */
+}
+
+.home-section:hover {
+   /* Light gray on hover */
+  transform: translateY(-5px); /* Lift effect on hover */
+  background-color: rgb(231, 255, 255);
+}
+
+/* Intro Section Styles */
+.intro {
+  margin-bottom: 30px; /* Space below intro */
+  
+}
+
+/* Header Styles */
+.home-section h1 {
+  font-style: italic;
+  font-size: 3em; /* Larger main heading */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Space below heading */
+  /* Uppercase for emphasis */
+}
+
+/* Paragraph Styles */
+.home-section p {
+  font-size: 1.3em; /* Slightly larger font for paragraphs */
+  color: #555; /* Darker gray for better readability */
+  margin: 10px 0; /* Space around paragraphs */
+  line-height: 1.6; /* Better line spacing */
+}
+
+/* Call-to-Action Button Styles */
+.cta-button {
+  display: inline-block; /* Make button inline */
+  padding: 15px 30px; /* Padding for button */
+  background-color: #084280; /* Button background color */
+  color: white; /* Button text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 30px; /* Rounded button */
+  font-size: 1.2em; /* Font size for button */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  margin-top: 20px; /* Space above button */
+}
+
+.cta-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Image Styles */
+.intro-photo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Circular image */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  
+}
+
+/* Responsive Styles for Image */
+@media (max-width: 768px) {
+  .intro-photo img {
+    width: 200px; /* Smaller size for mobile */
+    height: 200px;
+  }
+}
+
+/* Margin for Image Container */
+.intro-photo {
+  margin-left: 40px;
+}
+
+/* Social Links Styles */
+.social-links {
+  margin-top: 20px; /* Space above social links */
+}
+
+.social-links h3 {
+  font-size: 1.5em; /* Heading for social links */
+  color: #333; /* Dark text color */
+}
+
+.social-links ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.social-links li {
+  display: inline; /* Inline list items */
+  margin: 0 15px; /* Space between links */
+}
+
+.social-links a {
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Link color */
+  font-weight: bold; /* Bold links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-links a:hover {
+  color: #0056b3; /* Darker link color on hover */
+}
+
+/* Additional Styles for Better Responsiveness */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 50px; /* Reduce padding on smaller screens */
+  }
+
+  .home-section h1 {
+    font-size: 2.5em; /* Smaller heading on mobile */
+  }
+
+  .home-section p {
+    font-size: 1.1em; /* Smaller font for paragraphs */
+  }
+
+  .cta-button {
+    padding: 10px 20px; /* Smaller button on mobile */
+    font-size: 1em; /* Adjust font size */
+  }
+
+  .intro-photo {
+    margin-left: 0; /* Remove margin on smaller screens */
+    margin-top: 20px; /* Add top margin for spacing */
+  }
+}

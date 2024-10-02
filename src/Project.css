@@ -1,0 +1,79 @@
+/* src/components/Projects.css */
+.projects-section {
+    padding: 40px;
+    background-color: #f0f4f8; /* Light background for contrast */
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+    margin: 20px; /* Space around the section */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .projects-section:hover{
+    transform: translateY(-5px); /* Lift effect on hover */
+  background-color: rgb(231, 255, 255);
+  }
+  
+  .projects-section h2 {
+    font-size: 2.5em; /* Increased heading size */
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 1px; /* Spacing between letters */
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px; /* Space above the grid */
+  }
+  
+  .project-card {
+    background-color: white; /* Card background */
+    border-radius: 12px; /* More rounded corners */
+    padding: 20px; /* Inner spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Softer card shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation on hover */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    
+  }
+  
+  .project-image {
+    
+    width: 80%;
+    border-radius: 8px; /* Rounded edges for the image */
+    margin-bottom: 15px; /* Space below the image */
+  }
+  
+  .project-card h3 {
+    font-size: 1.8em; /* Increased project title size */
+    color: #084280; /* Highlight color */
+    margin: 10px 0; /* Space around the title */
+  }
+  
+  .project-card p {
+    font-size: 1.1em; /* Slightly larger text for descriptions */
+    color: #555; /* Description text color */
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #084280;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+  }
+  
+  .project-link:hover {
+    background-color: #084280; /* Darker on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  

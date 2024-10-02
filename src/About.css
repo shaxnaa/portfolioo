@@ -1,0 +1,63 @@
+/* src/components/About.css */
+.about-section {
+    padding: 40px;
+    background-color: #f0f4f8; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    text-align: center; /* Centered text */
+    margin: 20px; /* Space around the section */
+  }
+  .about-section:hover{
+    
+    transform: translateY(-5px);
+    background-color: rgb(231, 255, 255);
+
+  }
+  .about-section h2 {
+    font-size: 2.5em; /* Larger heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below heading */
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 1px; /* Spacing between letters */
+  }
+  
+  .about-section p {
+    font-size: 1.3em; /* Slightly larger font for body text */
+    color: #555; /* Darker gray for better readability */
+    margin: 15px 0; /* Space around paragraphs */
+    line-height: 1.6; /* Better line spacing */
+  }
+  
+  .about-section h3 {
+    font-size: 1.6em; /* Medium heading size */
+    color: #084280; /* Highlight color */
+    margin: 20px 0; /* Space around subheadings */
+    text-transform: uppercase; /* Uppercase for subheadings */
+  }
+  
+  .skills-list {
+    font-size: 1.3em;
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Flex layout for skills */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items */
+    
+  }
+  
+  .skills-list li {
+     /* Highlight color */
+    color: rgb(71, 70, 70); /* White text */
+    padding: 10px 15px; /* Padding around skills */
+    margin: 5px; /* Space between skills */
+    border-radius: 20px; /* Rounded skills */
+     /* Bold text for skills */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .skills-list li:hover {
+    background-color: #a4a4a5; /* Darker blue on hover */
+  }
+  .hobbies-list{
+    font-size: 1.3em;
+  }

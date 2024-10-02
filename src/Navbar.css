@@ -1,0 +1,48 @@
+/* src/components/Navbar.css */
+.navbar {
+    background: linear-gradient(90deg, white);
+    color: black;
+    padding: 1em;
+    
+    width: 95%; /* Full width */
+    z-index: 1000; /* On top of other elements */
+    height: 50px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .navbar-logo {
+    font-size : 40px;
+    font-weight:bolder;
+    margin: 0em;
+    
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Increased gap for better spacing */
+  }
+  
+  .navbar-menu a {
+    color: rgb(5, 4, 4);
+   
+    text-decoration:none;
+    padding: 8px 15px; /* Added padding for better click area */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    font-size:25px;
+    font-weight: bolder;
+    
+  }
+  
+  .navbar-menu a:hover {
+    background-color: rgba(7, 22, 135, 0.2); /* Subtle hover background */
+    color: #0b0a0a; /* Change text color on hover */
+    text-decoration: underline;
+  }
+  
