@@ -9,8 +9,8 @@ const projects = [
     description: 'An College website built through HTML & CSS.',
     image: 'https://via.placeholder.com/300', // Replace with your project image
     link: 'https://shaxnaa.github.io/College/', // Link to GitHub or live demo
-  },
- 
+  }
+  
 ];
 
 const Projects = () => {
